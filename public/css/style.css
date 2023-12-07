@@ -1,0 +1,86 @@
+body {
+  background: linear-gradient(90deg, #00d2ff, #3a47d5);
+  color: #fff;
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 50px;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 800px;
+}
+
+.page-heading {
+  font-weight: bold;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.form-heading {
+  font-weight: bold;
+}
+
+.form {
+  padding-top: 10px;
+}
+
+.amount-label,
+.description-label,
+.catagory-label {
+  font-size: 22px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.msg {
+  display: none;
+  color: rgb(226, 78, 78);
+  font-size: 25px;
+  margin-top: 30px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.expense-list {
+  margin-top: 30px;
+}
+
+.table-heading {
+  font-weight: bold;
+}
+
+table,
+thead,
+tbody,
+tr,
+th,
+td {
+  background-color: rgba(0, 0, 0, 0) !important;
+  color: #fff !important;
+}
+
+th {
+  font-size: 22px;
+}
+
+td {
+  font-size: 18px;
+}
+
+.save-btn,
+.update-btn,
+.cancel-btn {
+  font-size: 22px;
+}
+
+.save-btn {
+  display: inline-block;
+}
+
+.update-btn,
+.cancel-btn {
+  display: none;
+}
